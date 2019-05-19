@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherdata>
+  <location>
+    <name>Gvarv</name>
+    <type>Small town</type>
+    <country>Norway</country>
+    <timezone id="Europe/Oslo" utcoffsetMinutes="120" />
+    <location altitude="17" latitude="59.3876666216368" longitude="9.17239325131741" geobase="ssr" geobaseid="43354" />
+  </location>
+  <credit>
+    <!--In order to use the free weather data from yr no, you HAVE to display 
+the following text clearly visible on your web page. The text should be a 
+link to the specified URL.-->
+    <!--Please read more about our conditions and guidelines at http://om.yr.no/verdata/  English explanation at http://om.yr.no/verdata/free-weather-data/-->
+    <link text="Weather forecast from Yr, delivered by the Norwegian Meteorological Institute and the NRK" url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/" />
+  </credit>
+  <links>
+    <link id="xmlSource" url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/forecast.xml" />
+    <link id="xmlSourceHourByHour" url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/forecast_hour_by_hour.xml" />
+    <link id="overview" url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/" />
+    <link id="hourByHour" url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/hour_by_hour" />
+    <link id="longTermForecast" url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/long" />
+    <link id="radar" url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/radar.html" />
+    <link id="nowcast" url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/varsel_nu.xml" />
+  </links>
+  <meta>
+    <lastupdate>2019-05-19T04:29:19</lastupdate>
+    <nextupdate>2019-05-19T12:00:00</nextupdate>
+  </meta>
+  <sun rise="2019-05-19T04:42:03" set="2019-05-19T21:58:51" />
+  <forecast>
+    <text>
+      <location name="Gvarv">
+        <time from="2019-05-19" to="2019-05-19">
+          <title>Obs! Note!</title>
+          <body>Tekstvarsel-tjenesten er nedlagt. The text forecast service is suspended</body>
+        </time>
+      </location>
+    </text>
+    <tabular>
+      <time from="2019-05-19T11:00:00" to="2019-05-19T12:00:00">
+        <!-- Valid from 2019-05-19T11:00:00 to 2019-05-19T12:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-19T11:00:00 -->
+        <windDirection deg="20.9" code="NNE" name="North-northeast" />
+        <windSpeed mps="2.1" name="Light breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1013.0" />
+      </time>
+      <time from="2019-05-19T12:00:00" to="2019-05-19T13:00:00">
+        <!-- Valid from 2019-05-19T12:00:00 to 2019-05-19T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-19T12:00:00 -->
+        <windDirection deg="36.6" code="NE" name="Northeast" />
+        <windSpeed mps="2.7" name="Light breeze" />
+        <temperature unit="celsius" value="17" />
+        <pressure unit="hPa" value="1013.0" />
+      </time>
+      <time from="2019-05-19T13:00:00" to="2019-05-19T14:00:00">
+        <!-- Valid from 2019-05-19T13:00:00 to 2019-05-19T14:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-19T13:00:00 -->
+        <windDirection deg="34.6" code="NE" name="Northeast" />
+        <windSpeed mps="2.8" name="Light breeze" />
+        <temperature unit="celsius" value="17" />
+        <pressure unit="hPa" value="1013.0" />
+      </time>
+      <time from="2019-05-19T14:00:00" to="2019-05-19T15:00:00">
+        <!-- Valid from 2019-05-19T14:00:00 to 2019-05-19T15:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-19T14:00:00 -->
+        <windDirection deg="37.2" code="NE" name="Northeast" />
+        <windSpeed mps="2.7" name="Light breeze" />
+        <temperature unit="celsius" value="18" />
+        <pressure unit="hPa" value="1012.9" />
+      </time>
+      <time from="2019-05-19T15:00:00" to="2019-05-19T16:00:00">
+        <!-- Valid from 2019-05-19T15:00:00 to 2019-05-19T16:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-19T15:00:00 -->
+        <windDirection deg="42.9" code="NE" name="Northeast" />
+        <windSpeed mps="2.5" name="Light breeze" />
+        <temperature unit="celsius" value="19" />
+        <pressure unit="hPa" value="1013.0" />
+      </time>
+      <time from="2019-05-19T16:00:00" to="2019-05-19T17:00:00">
+        <!-- Valid from 2019-05-19T16:00:00 to 2019-05-19T17:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-19T16:00:00 -->
+        <windDirection deg="38.3" code="NE" name="Northeast" />
+        <windSpeed mps="2.2" name="Light breeze" />
+        <temperature unit="celsius" value="19" />
+        <pressure unit="hPa" value="1012.6" />
+      </time>
+      <time from="2019-05-19T17:00:00" to="2019-05-19T18:00:00">
+        <!-- Valid from 2019-05-19T17:00:00 to 2019-05-19T18:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-19T17:00:00 -->
+        <windDirection deg="21.7" code="NNE" name="North-northeast" />
+        <windSpeed mps="2.1" name="Light breeze" />
+        <temperature unit="celsius" value="20" />
+        <pressure unit="hPa" value="1012.2" />
+      </time>
+      <time from="2019-05-19T18:00:00" to="2019-05-19T19:00:00">
+        <!-- Valid from 2019-05-19T18:00:00 to 2019-05-19T19:00:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="02d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-19T18:00:00 -->
+        <windDirection deg="40.6" code="NE" name="Northeast" />
+        <windSpeed mps="2.5" name="Light breeze" />
+        <temperature unit="celsius" value="20" />
+        <pressure unit="hPa" value="1012.2" />
+      </time>
+      <time from="2019-05-19T19:00:00" to="2019-05-19T20:00:00">
+        <!-- Valid from 2019-05-19T19:00:00 to 2019-05-19T20:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-19T19:00:00 -->
+        <windDirection deg="41.0" code="NE" name="Northeast" />
+        <windSpeed mps="3.0" name="Light breeze" />
+        <temperature unit="celsius" value="20" />
+        <pressure unit="hPa" value="1012.1" />
+      </time>
+      <time from="2019-05-19T20:00:00" to="2019-05-19T21:00:00">
+        <!-- Valid from 2019-05-19T20:00:00 to 2019-05-19T21:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-19T20:00:00 -->
+        <windDirection deg="33.1" code="NNE" name="North-northeast" />
+        <windSpeed mps="3.1" name="Light breeze" />
+        <temperature unit="celsius" value="19" />
+        <pressure unit="hPa" value="1012.2" />
+      </time>
+      <time from="2019-05-19T21:00:00" to="2019-05-19T22:00:00">
+        <!-- Valid from 2019-05-19T21:00:00 to 2019-05-19T22:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-19T21:00:00 -->
+        <windDirection deg="34.4" code="NE" name="Northeast" />
+        <windSpeed mps="1.9" name="Light breeze" />
+        <temperature unit="celsius" value="17" />
+        <pressure unit="hPa" value="1012.6" />
+      </time>
+      <time from="2019-05-19T22:00:00" to="2019-05-19T23:00:00">
+        <!-- Valid from 2019-05-19T22:00:00 to 2019-05-19T23:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01n" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-19T22:00:00 -->
+        <windDirection deg="327.1" code="NNW" name="North-northwest" />
+        <windSpeed mps="1.0" name="Light air" />
+        <temperature unit="celsius" value="16" />
+        <pressure unit="hPa" value="1013.1" />
+      </time>
+      <time from="2019-05-19T23:00:00" to="2019-05-20T00:00:00">
+        <!-- Valid from 2019-05-19T23:00:00 to 2019-05-20T00:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-19T23:00:00 -->
+        <windDirection deg="274.8" code="W" name="West" />
+        <windSpeed mps="1.3" name="Light air" />
+        <temperature unit="celsius" value="14" />
+        <pressure unit="hPa" value="1013.4" />
+      </time>
+      <time from="2019-05-20T00:00:00" to="2019-05-20T01:00:00">
+        <!-- Valid from 2019-05-20T00:00:00 to 2019-05-20T01:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T00:00:00 -->
+        <windDirection deg="259.6" code="W" name="West" />
+        <windSpeed mps="1.6" name="Light breeze" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="1013.8" />
+      </time>
+      <time from="2019-05-20T01:00:00" to="2019-05-20T02:00:00">
+        <!-- Valid from 2019-05-20T01:00:00 to 2019-05-20T02:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T01:00:00 -->
+        <windDirection deg="273.7" code="W" name="West" />
+        <windSpeed mps="1.8" name="Light breeze" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="1013.7" />
+      </time>
+      <time from="2019-05-20T02:00:00" to="2019-05-20T03:00:00">
+        <!-- Valid from 2019-05-20T02:00:00 to 2019-05-20T03:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T02:00:00 -->
+        <windDirection deg="268.8" code="W" name="West" />
+        <windSpeed mps="1.8" name="Light breeze" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="1013.5" />
+      </time>
+      <time from="2019-05-20T03:00:00" to="2019-05-20T04:00:00">
+        <!-- Valid from 2019-05-20T03:00:00 to 2019-05-20T04:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T03:00:00 -->
+        <windDirection deg="273.5" code="W" name="West" />
+        <windSpeed mps="1.9" name="Light breeze" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="1013.1" />
+      </time>
+      <time from="2019-05-20T04:00:00" to="2019-05-20T05:00:00">
+        <!-- Valid from 2019-05-20T04:00:00 to 2019-05-20T05:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T04:00:00 -->
+        <windDirection deg="279.2" code="W" name="West" />
+        <windSpeed mps="1.8" name="Light breeze" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1012.8" />
+      </time>
+      <time from="2019-05-20T05:00:00" to="2019-05-20T06:00:00">
+        <!-- Valid from 2019-05-20T05:00:00 to 2019-05-20T06:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T05:00:00 -->
+        <windDirection deg="277.2" code="W" name="West" />
+        <windSpeed mps="1.9" name="Light breeze" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1012.5" />
+      </time>
+      <time from="2019-05-20T06:00:00" to="2019-05-20T07:00:00">
+        <!-- Valid from 2019-05-20T06:00:00 to 2019-05-20T07:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T06:00:00 -->
+        <windDirection deg="285.5" code="WNW" name="West-northwest" />
+        <windSpeed mps="1.8" name="Light breeze" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1012.3" />
+      </time>
+      <time from="2019-05-20T07:00:00" to="2019-05-20T08:00:00">
+        <!-- Valid from 2019-05-20T07:00:00 to 2019-05-20T08:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T07:00:00 -->
+        <windDirection deg="300.6" code="WNW" name="West-northwest" />
+        <windSpeed mps="2.0" name="Light breeze" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="1012.3" />
+      </time>
+      <time from="2019-05-20T08:00:00" to="2019-05-20T09:00:00">
+        <!-- Valid from 2019-05-20T08:00:00 to 2019-05-20T09:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T08:00:00 -->
+        <windDirection deg="347.8" code="NNW" name="North-northwest" />
+        <windSpeed mps="2.7" name="Light breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1012.2" />
+      </time>
+      <time from="2019-05-20T09:00:00" to="2019-05-20T10:00:00">
+        <!-- Valid from 2019-05-20T09:00:00 to 2019-05-20T10:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T09:00:00 -->
+        <windDirection deg="4.1" code="N" name="North" />
+        <windSpeed mps="3.6" name="Gentle breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1011.9" />
+      </time>
+      <time from="2019-05-20T10:00:00" to="2019-05-20T11:00:00">
+        <!-- Valid from 2019-05-20T10:00:00 to 2019-05-20T11:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T10:00:00 -->
+        <windDirection deg="4.3" code="N" name="North" />
+        <windSpeed mps="3.8" name="Gentle breeze" />
+        <temperature unit="celsius" value="17" />
+        <pressure unit="hPa" value="1011.6" />
+      </time>
+      <time from="2019-05-20T11:00:00" to="2019-05-20T12:00:00">
+        <!-- Valid from 2019-05-20T11:00:00 to 2019-05-20T12:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T11:00:00 -->
+        <windDirection deg="15.2" code="NNE" name="North-northeast" />
+        <windSpeed mps="4.3" name="Gentle breeze" />
+        <temperature unit="celsius" value="18" />
+        <pressure unit="hPa" value="1011.4" />
+      </time>
+      <time from="2019-05-20T12:00:00" to="2019-05-20T13:00:00">
+        <!-- Valid from 2019-05-20T12:00:00 to 2019-05-20T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="0.1" />
+        <!-- Valid at 2019-05-20T12:00:00 -->
+        <windDirection deg="10.0" code="N" name="North" />
+        <windSpeed mps="4.8" name="Gentle breeze" />
+        <temperature unit="celsius" value="17" />
+        <pressure unit="hPa" value="1011.4" />
+      </time>
+      <time from="2019-05-20T13:00:00" to="2019-05-20T14:00:00">
+        <!-- Valid from 2019-05-20T13:00:00 to 2019-05-20T14:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="0.1" />
+        <!-- Valid at 2019-05-20T13:00:00 -->
+        <windDirection deg="4.3" code="N" name="North" />
+        <windSpeed mps="4.5" name="Gentle breeze" />
+        <temperature unit="celsius" value="17" />
+        <pressure unit="hPa" value="1011.2" />
+      </time>
+      <time from="2019-05-20T14:00:00" to="2019-05-20T15:00:00">
+        <!-- Valid from 2019-05-20T14:00:00 to 2019-05-20T15:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="0.2" />
+        <!-- Valid at 2019-05-20T14:00:00 -->
+        <windDirection deg="5.3" code="N" name="North" />
+        <windSpeed mps="4.1" name="Gentle breeze" />
+        <temperature unit="celsius" value="16" />
+        <pressure unit="hPa" value="1011.1" />
+      </time>
+      <time from="2019-05-20T15:00:00" to="2019-05-20T16:00:00">
+        <!-- Valid from 2019-05-20T15:00:00 to 2019-05-20T16:00:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="40d" />
+        <precipitation value="0.1" minvalue="0" maxvalue="0.2" />
+        <!-- Valid at 2019-05-20T15:00:00 -->
+        <windDirection deg="7.2" code="N" name="North" />
+        <windSpeed mps="4.7" name="Gentle breeze" />
+        <temperature unit="celsius" value="16" />
+        <pressure unit="hPa" value="1010.9" />
+      </time>
+      <time from="2019-05-20T16:00:00" to="2019-05-20T17:00:00">
+        <!-- Valid from 2019-05-20T16:00:00 to 2019-05-20T17:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T16:00:00 -->
+        <windDirection deg="6.6" code="N" name="North" />
+        <windSpeed mps="3.9" name="Gentle breeze" />
+        <temperature unit="celsius" value="17" />
+        <pressure unit="hPa" value="1010.7" />
+      </time>
+      <time from="2019-05-20T17:00:00" to="2019-05-20T18:00:00">
+        <!-- Valid from 2019-05-20T17:00:00 to 2019-05-20T18:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T17:00:00 -->
+        <windDirection deg="8.3" code="N" name="North" />
+        <windSpeed mps="4.1" name="Gentle breeze" />
+        <temperature unit="celsius" value="17" />
+        <pressure unit="hPa" value="1010.5" />
+      </time>
+      <time from="2019-05-20T18:00:00" to="2019-05-20T19:00:00">
+        <!-- Valid from 2019-05-20T18:00:00 to 2019-05-20T19:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T18:00:00 -->
+        <windDirection deg="4.4" code="N" name="North" />
+        <windSpeed mps="3.7" name="Gentle breeze" />
+        <temperature unit="celsius" value="16" />
+        <pressure unit="hPa" value="1010.4" />
+      </time>
+      <time from="2019-05-20T19:00:00" to="2019-05-20T20:00:00">
+        <!-- Valid from 2019-05-20T19:00:00 to 2019-05-20T20:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T19:00:00 -->
+        <windDirection deg="10.0" code="N" name="North" />
+        <windSpeed mps="3.6" name="Gentle breeze" />
+        <temperature unit="celsius" value="16" />
+        <pressure unit="hPa" value="1010.3" />
+      </time>
+      <time from="2019-05-20T20:00:00" to="2019-05-20T21:00:00">
+        <!-- Valid from 2019-05-20T20:00:00 to 2019-05-20T21:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T20:00:00 -->
+        <windDirection deg="12.4" code="NNE" name="North-northeast" />
+        <windSpeed mps="3.2" name="Light breeze" />
+        <temperature unit="celsius" value="16" />
+        <pressure unit="hPa" value="1010.2" />
+      </time>
+      <time from="2019-05-20T21:00:00" to="2019-05-20T22:00:00">
+        <!-- Valid from 2019-05-20T21:00:00 to 2019-05-20T22:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T21:00:00 -->
+        <windDirection deg="3.7" code="N" name="North" />
+        <windSpeed mps="2.5" name="Light breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1010.2" />
+      </time>
+      <time from="2019-05-20T22:00:00" to="2019-05-20T23:00:00">
+        <!-- Valid from 2019-05-20T22:00:00 to 2019-05-20T23:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T22:00:00 -->
+        <windDirection deg="310.1" code="NW" name="Northwest" />
+        <windSpeed mps="1.2" name="Light air" />
+        <temperature unit="celsius" value="14" />
+        <pressure unit="hPa" value="1010.3" />
+      </time>
+      <time from="2019-05-20T23:00:00" to="2019-05-21T00:00:00">
+        <!-- Valid from 2019-05-20T23:00:00 to 2019-05-21T00:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-20T23:00:00 -->
+        <windDirection deg="278.0" code="W" name="West" />
+        <windSpeed mps="1.8" name="Light breeze" />
+        <temperature unit="celsius" value="14" />
+        <pressure unit="hPa" value="1010.4" />
+      </time>
+      <time from="2019-05-21T00:00:00" to="2019-05-21T01:00:00">
+        <!-- Valid from 2019-05-21T00:00:00 to 2019-05-21T01:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-21T00:00:00 -->
+        <windDirection deg="285.3" code="WNW" name="West-northwest" />
+        <windSpeed mps="1.9" name="Light breeze" />
+        <temperature unit="celsius" value="14" />
+        <pressure unit="hPa" value="1010.4" />
+      </time>
+      <time from="2019-05-21T01:00:00" to="2019-05-21T02:00:00">
+        <!-- Valid from 2019-05-21T01:00:00 to 2019-05-21T02:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-21T01:00:00 -->
+        <windDirection deg="293.7" code="WNW" name="West-northwest" />
+        <windSpeed mps="1.4" name="Light air" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1010.5" />
+      </time>
+      <time from="2019-05-21T02:00:00" to="2019-05-21T03:00:00">
+        <!-- Valid from 2019-05-21T02:00:00 to 2019-05-21T03:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-21T02:00:00 -->
+        <windDirection deg="285.6" code="WNW" name="West-northwest" />
+        <windSpeed mps="1.4" name="Light air" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1010.3" />
+      </time>
+      <time from="2019-05-21T03:00:00" to="2019-05-21T04:00:00">
+        <!-- Valid from 2019-05-21T03:00:00 to 2019-05-21T04:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-21T03:00:00 -->
+        <windDirection deg="284.9" code="WNW" name="West-northwest" />
+        <windSpeed mps="1.3" name="Light air" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1010.1" />
+      </time>
+      <time from="2019-05-21T04:00:00" to="2019-05-21T05:00:00">
+        <!-- Valid from 2019-05-21T04:00:00 to 2019-05-21T05:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-21T04:00:00 -->
+        <windDirection deg="263.1" code="W" name="West" />
+        <windSpeed mps="1.4" name="Light air" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1010.2" />
+      </time>
+      <time from="2019-05-21T05:00:00" to="2019-05-21T06:00:00">
+        <!-- Valid from 2019-05-21T05:00:00 to 2019-05-21T06:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-21T05:00:00 -->
+        <windDirection deg="276.1" code="W" name="West" />
+        <windSpeed mps="1.4" name="Light air" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1010.2" />
+      </time>
+      <time from="2019-05-21T06:00:00" to="2019-05-21T07:00:00">
+        <!-- Valid from 2019-05-21T06:00:00 to 2019-05-21T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-21T06:00:00 -->
+        <windDirection deg="276.4" code="W" name="West" />
+        <windSpeed mps="1.8" name="Light breeze" />
+        <temperature unit="celsius" value="14" />
+        <pressure unit="hPa" value="1010.3" />
+      </time>
+      <time from="2019-05-21T07:00:00" to="2019-05-21T08:00:00">
+        <!-- Valid from 2019-05-21T07:00:00 to 2019-05-21T08:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-21T07:00:00 -->
+        <windDirection deg="276.2" code="W" name="West" />
+        <windSpeed mps="1.4" name="Light air" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1010.3" />
+      </time>
+      <time from="2019-05-21T08:00:00" to="2019-05-21T09:00:00">
+        <!-- Valid from 2019-05-21T08:00:00 to 2019-05-21T09:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-21T08:00:00 -->
+        <windDirection deg="294.4" code="WNW" name="West-northwest" />
+        <windSpeed mps="1.4" name="Light air" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1010.5" />
+      </time>
+      <time from="2019-05-21T09:00:00" to="2019-05-21T10:00:00">
+        <!-- Valid from 2019-05-21T09:00:00 to 2019-05-21T10:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-21T09:00:00 -->
+        <windDirection deg="340.5" code="NNW" name="North-northwest" />
+        <windSpeed mps="2.1" name="Light breeze" />
+        <temperature unit="celsius" value="16" />
+        <pressure unit="hPa" value="1010.7" />
+      </time>
+      <time from="2019-05-21T10:00:00" to="2019-05-21T11:00:00">
+        <!-- Valid from 2019-05-21T10:00:00 to 2019-05-21T11:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-05-21T10:00:00 -->
+        <windDirection deg="315.0" code="NW" name="Northwest" />
+        <windSpeed mps="0.8" name="Light air" />
+        <temperature unit="celsius" value="16" />
+        <pressure unit="hPa" value="1011.1" />
+      </time>
+    </tabular>
+  </forecast>
+  <observations>
+    <weatherstation stno="32060" sttype="eklima" name="Gvarv" distance="2368" lat="59.38220" lon="9.21280" source="Meteorologisk Institutt">
+      <temperature unit="celsius" value="12.9" time="2019-05-19T07:00:00Z" />
+      <windDirection deg="357.0" code="N" name="North" time="2019-05-19T07:00:00Z" />
+      <windSpeed mps="0.5" name="Light air" time="2019-05-19T07:00:00Z" />
+    </weatherstation>
+    <weatherstation stno="32240" sttype="eklima" name="Bø (Glennahaugen)" distance="8786" lat="59.41750" lon="9.02870" source="Meteorologisk Institutt">
+      <temperature unit="celsius" value="13.4" time="2019-05-19T07:00:00Z" />
+    </weatherstation>
+    <weatherstation stno="32220" sttype="eklima" name="Lifjell" distance="16617" lat="59.50220" lon="8.98370" source="Meteorologisk Institutt">
+      <temperature unit="celsius" value="6.3" time="2019-05-19T07:00:00Z" />
+      <windDirection deg="28.0" code="NNE" name="North-northeast" time="2019-05-19T07:00:00Z" />
+      <windSpeed mps="3.6" name="Gentle breeze" time="2019-05-19T07:00:00Z" />
+    </weatherstation>
+  </observations>
+</weatherdata>
