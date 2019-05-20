@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,105 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="yrWeather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blaxk_rain.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FYT-ag-Whx">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pCY-hd-vMT">
+                                <rect key="frame" x="20" y="44" width="374" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QxO-rK-Ywb">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <color key="textColor" red="0.079016353679999998" green="0.70615812919999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="15w-XL-bE4"/>
+                                    <constraint firstAttribute="trailing" secondItem="QxO-rK-Ywb" secondAttribute="trailing" id="6ez-oH-GeU"/>
+                                    <constraint firstItem="QxO-rK-Ywb" firstAttribute="top" secondItem="pCY-hd-vMT" secondAttribute="top" id="NpE-hm-mho"/>
+                                    <constraint firstAttribute="bottom" secondItem="QxO-rK-Ywb" secondAttribute="bottom" id="YoO-4x-hX8"/>
+                                    <constraint firstItem="QxO-rK-Ywb" firstAttribute="leading" secondItem="pCY-hd-vMT" secondAttribute="leading" id="ak1-Rk-Uas"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qcy-CE-kUA">
+                                <rect key="frame" x="20" y="812" width="374" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="GIa-KE-jz9"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJc-5D-CyU">
+                                <rect key="frame" x="173" y="414" width="68" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.98405461547122053" green="1" blue="0.98907678575434022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="icons8-plus-white-90.png"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qcy-CE-kUA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4GV-QN-d3h"/>
+                            <constraint firstItem="pCY-hd-vMT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4cp-d2-gGH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pCY-hd-vMT" secondAttribute="trailing" constant="20" id="BAO-bs-mwT"/>
+                            <constraint firstItem="qcy-CE-kUA" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="FXc-ng-eyc"/>
+                            <constraint firstItem="FYT-ag-Whx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Q2K-3j-hxC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qcy-CE-kUA" secondAttribute="trailing" constant="20" id="Qww-Bf-0He"/>
+                            <constraint firstItem="FYT-ag-Whx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vw0-X2-5SC"/>
+                            <constraint firstAttribute="bottom" secondItem="FYT-ag-Whx" secondAttribute="bottom" id="mTl-oG-HKa"/>
+                            <constraint firstItem="FYT-ag-Whx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="nu6-jH-2Mu"/>
+                            <constraint firstItem="pCY-hd-vMT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zJs-Hu-bFX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="lblCity" destination="QxO-rK-Ywb" id="I6l-UM-V31"/>
+                        <outlet property="navigationBar" destination="pCY-hd-vMT" id="Qig-ny-vQt"/>
+                        <outlet property="toolBar" destination="qcy-CE-kUA" id="rd1-6j-x9V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="515.94202898550725" y="138.61607142857142"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="B8F-NS-aqG">
+            <objects>
+                <viewController id="wgo-KB-kdy" customClass="AboutViewController" customModule="yrWeather" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4r1-qu-pBo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="P5J-kk-wej"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4yV-ao-1jq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="151" y="798"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="A72-Vd-Enw">
+            <objects>
+                <viewController id="kQ7-5n-ZUH" customClass="SettingsViewController" customModule="yrWeather" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wse-ZF-1ia">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lAd-cV-PHP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SNc-3v-yPu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="865" y="798"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="blaxk_rain.jpg" width="1080" height="1920"/>
+        <image name="icons8-plus-white-90.png" width="67.5" height="67.5"/>
+    </resources>
 </document>

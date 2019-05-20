@@ -15,6 +15,17 @@
 		3CE742552291579E000F81A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE742532291579E000F81A9 /* LaunchScreen.storyboard */; };
 		3CE742602291579E000F81A9 /* yrWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7425F2291579E000F81A9 /* yrWeatherTests.swift */; };
 		3CE7426B2291579E000F81A9 /* yrWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7426A2291579E000F81A9 /* yrWeatherUITests.swift */; };
+		3CE742792292BABD000F81A9 /* appicon_200px.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CE742782292BABC000F81A9 /* appicon_200px.jpg */; };
+		3CE7427B2292C153000F81A9 /* appicon_200px_round.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7427A2292C153000F81A9 /* appicon_200px_round.png */; };
+		3CE7427D2292C324000F81A9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7427C2292C324000F81A9 /* AboutViewController.swift */; };
+		3CE7427F2292C4AC000F81A9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7427E2292C4AC000F81A9 /* SettingsViewController.swift */; };
+		3CE742812292D36A000F81A9 /* blaxk_rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CE742802292D36A000F81A9 /* blaxk_rain.jpg */; };
+		3CE742862292DE00000F81A9 /* icons8-about-filled-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE742822292DE00000F81A9 /* icons8-about-filled-30.png */; };
+		3CE742872292DE00000F81A9 /* icons8-internet-filled-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE742832292DE00000F81A9 /* icons8-internet-filled-30.png */; };
+		3CE742882292DE00000F81A9 /* icons8-automatic-filled-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE742842292DE00000F81A9 /* icons8-automatic-filled-30.png */; };
+		3CE742892292DE00000F81A9 /* icons8-plus-filled-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE742852292DE00000F81A9 /* icons8-plus-filled-30.png */; };
+		3CE7428B2292E05D000F81A9 /* icons8-plus-filled-90.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7428A2292E05D000F81A9 /* icons8-plus-filled-90.png */; };
+		3CE7428D2292E1E0000F81A9 /* icons8-plus-white-90.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7428C2292E1E0000F81A9 /* icons8-plus-white-90.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		3CE742662291579E000F81A9 /* yrWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yrWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE7426A2291579E000F81A9 /* yrWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yrWeatherUITests.swift; sourceTree = "<group>"; };
 		3CE7426C2291579E000F81A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE742782292BABC000F81A9 /* appicon_200px.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = appicon_200px.jpg; path = _resources/appicon_200px.jpg; sourceTree = SOURCE_ROOT; };
+		3CE7427A2292C153000F81A9 /* appicon_200px_round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon_200px_round.png; path = _resources/appicon_200px_round.png; sourceTree = SOURCE_ROOT; };
+		3CE7427C2292C324000F81A9 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		3CE7427E2292C4AC000F81A9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3CE742802292D36A000F81A9 /* blaxk_rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blaxk_rain.jpg; path = _resources/blaxk_rain.jpg; sourceTree = SOURCE_ROOT; };
+		3CE742822292DE00000F81A9 /* icons8-about-filled-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-about-filled-30.png"; path = "_resources/icons8-about-filled-30.png"; sourceTree = SOURCE_ROOT; };
+		3CE742832292DE00000F81A9 /* icons8-internet-filled-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-internet-filled-30.png"; path = "_resources/icons8-internet-filled-30.png"; sourceTree = SOURCE_ROOT; };
+		3CE742842292DE00000F81A9 /* icons8-automatic-filled-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-automatic-filled-30.png"; path = "_resources/icons8-automatic-filled-30.png"; sourceTree = SOURCE_ROOT; };
+		3CE742852292DE00000F81A9 /* icons8-plus-filled-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-plus-filled-30.png"; path = "_resources/icons8-plus-filled-30.png"; sourceTree = SOURCE_ROOT; };
+		3CE7428A2292E05D000F81A9 /* icons8-plus-filled-90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-plus-filled-90.png"; path = "_resources/icons8-plus-filled-90.png"; sourceTree = SOURCE_ROOT; };
+		3CE7428C2292E1E0000F81A9 /* icons8-plus-white-90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-plus-white-90.png"; path = "_resources/icons8-plus-white-90.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +124,21 @@
 				3CE742472291579C000F81A9 /* AppDelegate.swift */,
 				3CE742492291579C000F81A9 /* ViewController.swift */,
 				3CE7424B2291579C000F81A9 /* Main.storyboard */,
+				3CE7427E2292C4AC000F81A9 /* SettingsViewController.swift */,
+				3CE7427C2292C324000F81A9 /* AboutViewController.swift */,
 				3CE742512291579E000F81A9 /* Assets.xcassets */,
 				3CE742532291579E000F81A9 /* LaunchScreen.storyboard */,
 				3CE742562291579E000F81A9 /* Info.plist */,
 				3CE7424E2291579C000F81A9 /* yrWeather.xcdatamodeld */,
+				3CE742802292D36A000F81A9 /* blaxk_rain.jpg */,
+				3CE7427A2292C153000F81A9 /* appicon_200px_round.png */,
+				3CE742782292BABC000F81A9 /* appicon_200px.jpg */,
+				3CE742822292DE00000F81A9 /* icons8-about-filled-30.png */,
+				3CE742842292DE00000F81A9 /* icons8-automatic-filled-30.png */,
+				3CE742832292DE00000F81A9 /* icons8-internet-filled-30.png */,
+				3CE742852292DE00000F81A9 /* icons8-plus-filled-30.png */,
+				3CE7428C2292E1E0000F81A9 /* icons8-plus-white-90.png */,
+				3CE7428A2292E05D000F81A9 /* icons8-plus-filled-90.png */,
 			);
 			path = yrWeather;
 			sourceTree = "<group>";
@@ -232,9 +265,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE7428D2292E1E0000F81A9 /* icons8-plus-white-90.png in Resources */,
 				3CE742552291579E000F81A9 /* LaunchScreen.storyboard in Resources */,
 				3CE742522291579E000F81A9 /* Assets.xcassets in Resources */,
+				3CE7427B2292C153000F81A9 /* appicon_200px_round.png in Resources */,
 				3CE7424D2291579C000F81A9 /* Main.storyboard in Resources */,
+				3CE742882292DE00000F81A9 /* icons8-automatic-filled-30.png in Resources */,
+				3CE742862292DE00000F81A9 /* icons8-about-filled-30.png in Resources */,
+				3CE742892292DE00000F81A9 /* icons8-plus-filled-30.png in Resources */,
+				3CE742812292D36A000F81A9 /* blaxk_rain.jpg in Resources */,
+				3CE742792292BABD000F81A9 /* appicon_200px.jpg in Resources */,
+				3CE7428B2292E05D000F81A9 /* icons8-plus-filled-90.png in Resources */,
+				3CE742872292DE00000F81A9 /* icons8-internet-filled-30.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +303,8 @@
 			files = (
 				3CE7424A2291579C000F81A9 /* ViewController.swift in Sources */,
 				3CE742502291579C000F81A9 /* yrWeather.xcdatamodeld in Sources */,
+				3CE7427D2292C324000F81A9 /* AboutViewController.swift in Sources */,
+				3CE7427F2292C4AC000F81A9 /* SettingsViewController.swift in Sources */,
 				3CE742482291579C000F81A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
