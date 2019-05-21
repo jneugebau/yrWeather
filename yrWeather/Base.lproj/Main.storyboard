@@ -41,10 +41,84 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qcy-CE-kUA">
-                                <rect key="frame" x="20" y="812" width="374" height="50"/>
+                                <rect key="frame" x="20" y="792" width="374" height="70"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="TLm-bj-VBc">
+                                        <rect key="frame" x="8" y="8" width="358" height="54"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gqF-nc-ihN">
+                                                <rect key="frame" x="0.0" y="0.0" width="51" height="54"/>
+                                                <state key="normal" title="Mo">
+                                                    <color key="titleColor" red="0.98405461549999995" green="1" blue="0.98907678580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="weekdayClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7sm-sj-sQc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0q-Sj-CLO">
+                                                <rect key="frame" x="51" y="0.0" width="51" height="54"/>
+                                                <state key="normal" title="Tue">
+                                                    <color key="titleColor" red="0.98405461549999995" green="1" blue="0.98907678580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="weekdayClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k17-oz-Vfg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3M-u8-S37">
+                                                <rect key="frame" x="102" y="0.0" width="52.5" height="54"/>
+                                                <state key="normal" title="Wed">
+                                                    <color key="titleColor" red="0.98405461549999995" green="1" blue="0.98907678580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="weekdayClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cmd-87-rWY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhn-H1-f32">
+                                                <rect key="frame" x="154.5" y="0.0" width="51" height="54"/>
+                                                <state key="normal" title="Thu">
+                                                    <color key="titleColor" red="0.98405461549999995" green="1" blue="0.98907678580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="weekdayClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3VE-FJ-N2t"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSJ-yX-6Z8">
+                                                <rect key="frame" x="205.5" y="0.0" width="50.5" height="54"/>
+                                                <state key="normal" title="Fri">
+                                                    <color key="titleColor" red="0.98405461549999995" green="1" blue="0.98907678580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="weekdayClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rlC-wn-usG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsN-UL-YqG">
+                                                <rect key="frame" x="256" y="0.0" width="51" height="54"/>
+                                                <state key="normal" title="Sat">
+                                                    <color key="titleColor" red="0.98405461549999995" green="1" blue="0.98907678580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="weekdayClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gu0-V7-Avk"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwb-sX-15x">
+                                                <rect key="frame" x="307" y="0.0" width="51" height="54"/>
+                                                <state key="normal" title="Sun">
+                                                    <color key="titleColor" red="0.98405461549999995" green="1" blue="0.98907678580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="weekdayClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QMH-mg-e0U"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="GIa-KE-jz9"/>
+                                    <constraint firstAttribute="bottom" secondItem="TLm-bj-VBc" secondAttribute="bottom" constant="8" id="0om-j9-aFx"/>
+                                    <constraint firstItem="TLm-bj-VBc" firstAttribute="leading" secondItem="qcy-CE-kUA" secondAttribute="leading" constant="8" id="56G-5X-31y"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="RGC-vO-3Kt"/>
+                                    <constraint firstAttribute="trailing" secondItem="TLm-bj-VBc" secondAttribute="trailing" constant="8" id="epG-LE-iqm"/>
+                                    <constraint firstItem="TLm-bj-VBc" firstAttribute="top" secondItem="qcy-CE-kUA" secondAttribute="top" constant="8" id="jxB-Td-h0L"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJc-5D-CyU">
@@ -70,6 +144,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="buttonFriday" destination="MSJ-yX-6Z8" id="8iJ-Tj-76s"/>
+                        <outlet property="buttonMonday" destination="gqF-nc-ihN" id="wCB-YQ-znH"/>
+                        <outlet property="buttonSaturday" destination="JsN-UL-YqG" id="j0v-oR-ojo"/>
+                        <outlet property="buttonSunday" destination="mwb-sX-15x" id="FoS-Lf-Xx5"/>
+                        <outlet property="buttonThursday" destination="Bhn-H1-f32" id="dtb-Nw-rYE"/>
+                        <outlet property="buttonTuesday" destination="m0q-Sj-CLO" id="pip-6h-5V1"/>
+                        <outlet property="buttonWednesday" destination="f3M-u8-S37" id="7L4-b4-f0k"/>
                         <outlet property="lblCity" destination="QxO-rK-Ywb" id="I6l-UM-V31"/>
                         <outlet property="navigationBar" destination="pCY-hd-vMT" id="Qig-ny-vQt"/>
                         <outlet property="toolBar" destination="qcy-CE-kUA" id="rd1-6j-x9V"/>
