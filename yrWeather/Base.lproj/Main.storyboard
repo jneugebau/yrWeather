@@ -233,13 +233,44 @@
                                     <action selector="buttonCloseClicked:" destination="fTD-PT-pAh" eventType="touchUpInside" id="bvb-x8-8Lv"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCk-0a-MGs">
+                                <rect key="frame" x="189" y="119" width="36" height="36"/>
+                                <state key="normal" image="add_48px.png"/>
+                                <connections>
+                                    <action selector="buttonAddClicked:" destination="fTD-PT-pAh" eventType="touchUpInside" id="jbw-gC-EDF"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5BI-Dc-7Tl">
+                                <rect key="frame" x="20" y="206" width="374" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="YUQ-pY-09e">
+                                        <rect key="frame" x="0.0" y="28" width="374" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YUQ-pY-09e" id="oja-RO-dg8">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="fTD-PT-pAh" id="sCN-0T-P1B"/>
+                                    <outlet property="delegate" destination="fTD-PT-pAh" id="Hw7-JY-xJN"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="EI5-47-SpP" firstAttribute="trailing" secondItem="5BI-Dc-7Tl" secondAttribute="trailing" constant="20" id="CVk-oF-uWL"/>
+                            <constraint firstItem="bCk-0a-MGs" firstAttribute="centerX" secondItem="1UM-xD-XlI" secondAttribute="centerX" id="KGH-7y-8Ff"/>
                             <constraint firstItem="cic-gT-KEM" firstAttribute="leading" secondItem="EI5-47-SpP" secondAttribute="leading" id="Pdh-E7-t7D"/>
+                            <constraint firstItem="5BI-Dc-7Tl" firstAttribute="top" secondItem="bCk-0a-MGs" secondAttribute="bottom" constant="51" id="Rr0-ey-tn2"/>
+                            <constraint firstItem="cic-gT-KEM" firstAttribute="top" secondItem="bCk-0a-MGs" secondAttribute="bottom" constant="-155" id="TH3-PG-4w3"/>
+                            <constraint firstItem="NLN-T4-7Fi" firstAttribute="top" secondItem="5BI-Dc-7Tl" secondAttribute="bottom" constant="43" id="VKG-e1-oVI"/>
                             <constraint firstAttribute="bottom" secondItem="cic-gT-KEM" secondAttribute="bottom" id="VWS-JJ-Gjv"/>
                             <constraint firstItem="NLN-T4-7Fi" firstAttribute="bottom" secondItem="EI5-47-SpP" secondAttribute="bottom" id="WNF-hf-gMo"/>
                             <constraint firstItem="EI5-47-SpP" firstAttribute="trailing" secondItem="NLN-T4-7Fi" secondAttribute="trailing" constant="20" id="dcq-zr-PtF"/>
+                            <constraint firstItem="5BI-Dc-7Tl" firstAttribute="leading" secondItem="EI5-47-SpP" secondAttribute="leading" constant="20" id="dxl-PH-ihx"/>
                             <constraint firstItem="NLN-T4-7Fi" firstAttribute="leading" secondItem="EI5-47-SpP" secondAttribute="leading" constant="20" id="ffs-Ww-Nfm"/>
                             <constraint firstItem="cic-gT-KEM" firstAttribute="trailing" secondItem="EI5-47-SpP" secondAttribute="trailing" id="w1t-Jk-1yi"/>
                             <constraint firstItem="cic-gT-KEM" firstAttribute="top" secondItem="1UM-xD-XlI" secondAttribute="top" id="wDY-hT-C1j"/>
@@ -247,7 +278,9 @@
                         <viewLayoutGuide key="safeArea" id="EI5-47-SpP"/>
                     </view>
                     <connections>
+                        <outlet property="btnAdd" destination="bCk-0a-MGs" id="wYh-Q4-8y3"/>
                         <outlet property="btnClose" destination="NLN-T4-7Fi" id="iQC-N9-zIG"/>
+                        <outlet property="tblViewFavorites" destination="5BI-Dc-7Tl" id="uL2-Wz-rZ6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AJ7-1S-W51" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -326,6 +359,7 @@
     <resources>
         <image name="about.png" width="22.5" height="22.5"/>
         <image name="about_background.png" width="298.07998657226562" height="645.1199951171875"/>
+        <image name="add_48px.png" width="36" height="36"/>
         <image name="appicon_200px_round.png" width="200" height="200"/>
         <image name="blaxk_rain.jpg" width="1080" height="1920"/>
         <image name="favorites_background.jpg" width="298.07998657226562" height="645.1199951171875"/>
