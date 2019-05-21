@@ -209,46 +209,45 @@
             </objects>
             <point key="canvasLocation" x="515.94202898550725" y="138.61607142857142"/>
         </scene>
-        <!--Favorites View Controller-->
+        <!--Fav View Controller-->
         <scene sceneID="aYL-5y-hox">
             <objects>
-                <viewController id="fTD-PT-pAh" customClass="FavoritesViewController" customModule="yrWeather" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fTD-PT-pAh" customClass="FavViewController" customModule="yrWeather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1UM-xD-XlI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="favorites_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="cic-gT-KEM">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="favorites_background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cic-gT-KEM">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLN-T4-7Fi">
                                 <rect key="frame" x="20" y="817" width="374" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="6c8-vH-pRi"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="vJG-KG-Ouf"/>
                                 </constraints>
                                 <state key="normal" title="Close">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonCloseClicked:" destination="kQ7-5n-ZUH" eventType="touchUpInside" id="N68-Ra-RXh"/>
-                                    <action selector="buttonCloseClicked:" destination="fTD-PT-pAh" eventType="touchUpInside" id="RSs-qF-hN2"/>
+                                    <action selector="buttonCloseClicked:" destination="fTD-PT-pAh" eventType="touchUpInside" id="bvb-x8-8Lv"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="NLN-T4-7Fi" firstAttribute="leading" secondItem="EI5-47-SpP" secondAttribute="leading" constant="20" id="04f-6B-3hY"/>
-                            <constraint firstItem="cic-gT-KEM" firstAttribute="trailing" secondItem="EI5-47-SpP" secondAttribute="trailing" id="DKB-Pf-QTn"/>
-                            <constraint firstAttribute="bottom" secondItem="cic-gT-KEM" secondAttribute="bottom" id="JIT-NK-Tho"/>
-                            <constraint firstItem="NLN-T4-7Fi" firstAttribute="bottom" secondItem="EI5-47-SpP" secondAttribute="bottom" id="JTX-Em-qk4"/>
-                            <constraint firstItem="cic-gT-KEM" firstAttribute="leading" secondItem="EI5-47-SpP" secondAttribute="leading" id="JZe-ZH-1Kv"/>
-                            <constraint firstItem="EI5-47-SpP" firstAttribute="trailing" secondItem="NLN-T4-7Fi" secondAttribute="trailing" constant="20" id="KD0-Qm-wXb"/>
-                            <constraint firstItem="cic-gT-KEM" firstAttribute="top" secondItem="1UM-xD-XlI" secondAttribute="top" id="asN-hK-qjj"/>
+                            <constraint firstItem="cic-gT-KEM" firstAttribute="leading" secondItem="EI5-47-SpP" secondAttribute="leading" id="Pdh-E7-t7D"/>
+                            <constraint firstAttribute="bottom" secondItem="cic-gT-KEM" secondAttribute="bottom" id="VWS-JJ-Gjv"/>
+                            <constraint firstItem="NLN-T4-7Fi" firstAttribute="bottom" secondItem="EI5-47-SpP" secondAttribute="bottom" id="WNF-hf-gMo"/>
+                            <constraint firstItem="EI5-47-SpP" firstAttribute="trailing" secondItem="NLN-T4-7Fi" secondAttribute="trailing" constant="20" id="dcq-zr-PtF"/>
+                            <constraint firstItem="NLN-T4-7Fi" firstAttribute="leading" secondItem="EI5-47-SpP" secondAttribute="leading" constant="20" id="ffs-Ww-Nfm"/>
+                            <constraint firstItem="cic-gT-KEM" firstAttribute="trailing" secondItem="EI5-47-SpP" secondAttribute="trailing" id="w1t-Jk-1yi"/>
+                            <constraint firstItem="cic-gT-KEM" firstAttribute="top" secondItem="1UM-xD-XlI" secondAttribute="top" id="wDY-hT-C1j"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EI5-47-SpP"/>
                     </view>
                     <connections>
-                        <outlet property="btnClose" destination="NLN-T4-7Fi" id="uhb-tq-ITR"/>
+                        <outlet property="btnClose" destination="NLN-T4-7Fi" id="iQC-N9-zIG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AJ7-1S-W51" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -281,7 +280,7 @@
                                     <action selector="buttonCloseClicked:" destination="kQ7-5n-ZUH" eventType="touchUpInside" id="ydc-Vu-ijl"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yrWeather App v1.0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzg-6d-Ejp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yrWeather App v0.1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzg-6d-Ejp">
                                 <rect key="frame" x="20" y="283" width="374" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -329,7 +328,7 @@
         <image name="about_background.png" width="298.07998657226562" height="645.1199951171875"/>
         <image name="appicon_200px_round.png" width="200" height="200"/>
         <image name="blaxk_rain.jpg" width="1080" height="1920"/>
-        <image name="favorites_background.png" width="1242" height="2688"/>
+        <image name="favorites_background.jpg" width="298.07998657226562" height="645.1199951171875"/>
         <image name="favourites.png" width="22.5" height="22.5"/>
         <image name="weezle_rain.png" width="256" height="256"/>
     </resources>
