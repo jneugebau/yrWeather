@@ -8,28 +8,17 @@
 
 import UIKit
 
-/*
-extension UIView {
-    @IBInspectable
-    var cornerRadius: CGFloat {
-        get {
-            return layer.cornerRadius
-        }
-        set {
-            layer.cornerRadius = newValue
-        }
-    }
-}
-*/
-
-
-
-
 class ViewController: UIViewController {
 
-    @IBOutlet weak var navigationBar: UIView!
-    @IBOutlet weak var toolBar: UIView!
+
     @IBOutlet weak var lblCity: UILabel!
+    @IBOutlet weak var lblTemperature: UILabel!
+    @IBOutlet weak var imgWeather: UIImageView!
+    @IBOutlet weak var toolBar: UIView!
+    
+    
+    @IBOutlet weak var buttonSettings: UIButton!
+    @IBOutlet weak var buttonFavorites: UIButton!
     @IBOutlet weak var buttonMonday: UIButton!
     @IBOutlet weak var buttonTuesday: UIButton!
     @IBOutlet weak var buttonWednesday: UIButton!
@@ -38,20 +27,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var buttonSaturday: UIButton!
     @IBOutlet weak var buttonSunday: UIButton!
     
-    let MON:Int = 1
-    let TUE:Int = 2
-    let WED:Int = 3
-    let THU:Int = 4
-    let FRI:Int = 5
-    let SAT:Int = 6
-    let SUN:Int = 7
+    let SUN:Int = 1
+    let MON:Int = 2
+    let TUE:Int = 3
+    let WED:Int = 4
+    let THU:Int = 5
+    let FRI:Int = 6
+    let SAT:Int = 7
+
     
     let clBlue:CGColor = UIColor(red: 0/255.0, green: 153.0/255.0, blue: 255.0/255.0, alpha: 1.0).cgColor
     let clOrange:CGColor = UIColor(red: 255.0/255.0, green: 204.0/255.0, blue: 102.0/255.0, alpha: 1.0).cgColor
     
+    
+    /**
+     * 
+     */
     @IBAction func weekdayClicked(_ sender: UIButton) {
-        print( "clicked button \(sender.tag)" )
-        
         resetWeekday(but: buttonMonday)
         resetWeekday(but: buttonTuesday)
         resetWeekday(but: buttonWednesday)
@@ -64,16 +56,23 @@ class ViewController: UIViewController {
     }
     
 
+    /**
+     * reset day of week button
+     */
     func resetWeekday( but: UIButton) {
         but.layer.backgroundColor = UIColor.clear.cgColor
-        print( "reset button \(but.tag)" )
     }
     
+    /**
+     * highlight day of week button
+     */
     func highlightWeekday( but: UIButton) {
         but.layer.backgroundColor = clBlue
-        print( "highlight button \(but.tag)" )
     }
     
+    /**
+     *
+     */
     func initWeekdayButtons(){
         buttonMonday.layer.cornerRadius = 10
         buttonTuesday.layer.cornerRadius = 10
@@ -105,27 +104,42 @@ class ViewController: UIViewController {
         }
     }
     
+    
+    /**
+     * function returns the current day of week as Integer
+     *
+     * Sun = 1
+     * Mon = 2
+     * Tue = 3
+     * Wed = 4
+     * Thu = 5
+     * Fri = 6
+     * Sat = 7
+     */
     func getDayOfWeek() -> Int? {
         let date = Date()
         let calendar = Calendar.current
         return calendar.component(.weekday, from: date)
     }
     
+    /**
+     *
+     */
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        navigationBar.layer.cornerRadius = 10
-        navigationBar.layer.backgroundColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.65).cgColor
         
         toolBar.layer.cornerRadius = 10
         toolBar.layer.borderWidth = 1
         toolBar.layer.borderColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.65).cgColor
         toolBar.layer.backgroundColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.65).cgColor
         
+        //lblCity.layer.borderWidth = 1
+        //lblTemperature.layer.borderWidth = 1
+        
         initWeekdayButtons()
         
-        
         lblCity.text = "Munich"
+        lblTemperature.text = "12° C"
         
     }
 

@@ -1,34 +1,30 @@
 //
-//  SettingsViewController.swift
+//  FavoritesViewController.swift
 //  yrWeather
 //
-//  Created by Joerg Neugebauer on 20.05.19.
+//  Created by Joerg Neugebauer on 21.05.19.
 //  Copyright © 2019 Joerg Neugebauer. All rights reserved.
 //
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class FavoritesViewController: UIViewController {
 
-    
-    @IBOutlet weak var buttonClose: UIButton!
+    @IBOutlet weak var btnClose: UIButton!
     
     let clRed:CGColor = UIColor(red: 238.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor
     let clBlue:CGColor = UIColor(red: 0/255.0, green: 153.0/255.0, blue: 255.0/255.0, alpha: 1.0).cgColor
     let clOrange:CGColor = UIColor(red: 255.0/255.0, green: 204.0/255.0, blue: 102.0/255.0, alpha: 1.0).cgColor
     
-    
     @IBAction func buttonCloseClicked(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        buttonClose.layer.backgroundColor = clBlue
-        buttonClose.layer.cornerRadius = 10
-
-        // Do any additional setup after loading the view.
+        btnClose.layer.cornerRadius = 10
+        btnClose.layer.backgroundColor = clBlue
     }
     
 
