@@ -12,10 +12,14 @@ class SettingsViewController: UIViewController {
 
     
     @IBOutlet weak var buttonClose: UIButton!
+    @IBOutlet weak var lblApplicationInfo: UILabel!
+    @IBOutlet weak var lblCopyrightInfo: UILabel!
+    @IBOutlet weak var lblCredits: UIView!
     
     let clRed:CGColor = UIColor(red: 238.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor
     let clBlue:CGColor = UIColor(red: 0/255.0, green: 153.0/255.0, blue: 255.0/255.0, alpha: 1.0).cgColor
     let clOrange:CGColor = UIColor(red: 255.0/255.0, green: 204.0/255.0, blue: 102.0/255.0, alpha: 1.0).cgColor
+    let clGray:CGColor = UIColor(red: 115.0/255.0, green: 115.0/255.0, blue: 115.0/255.0, alpha: 0.8).cgColor
     
     
     @IBAction func buttonCloseClicked(_ sender: Any) {
@@ -27,6 +31,11 @@ class SettingsViewController: UIViewController {
         
         buttonClose.layer.backgroundColor = clBlue
         buttonClose.layer.cornerRadius = 10
+        
+        lblCopyrightInfo.text = "©2019 jn18dev"
+        
+        lblCredits.layer.cornerRadius = 10
+        lblCredits.layer.backgroundColor = clGray
 
         // Do any additional setup after loading the view.
     }

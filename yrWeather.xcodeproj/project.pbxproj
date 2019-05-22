@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C94C80A2295313B00C2BB28 /* WeatherParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C94C8092295313B00C2BB28 /* WeatherParser.swift */; };
 		3CE742482291579C000F81A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE742472291579C000F81A9 /* AppDelegate.swift */; };
 		3CE7424A2291579C000F81A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE742492291579C000F81A9 /* ViewController.swift */; };
 		3CE7424D2291579C000F81A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7424B2291579C000F81A9 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C94C8092295313B00C2BB28 /* WeatherParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherParser.swift; sourceTree = "<group>"; };
 		3CE742442291579C000F81A9 /* yrWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yrWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE742472291579C000F81A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CE742492291579C000F81A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		3CE742462291579C000F81A9 /* yrWeather */ = {
 			isa = PBXGroup;
 			children = (
+				3C94C8092295313B00C2BB28 /* WeatherParser.swift */,
 				3CE742472291579C000F81A9 /* AppDelegate.swift */,
 				3CE742492291579C000F81A9 /* ViewController.swift */,
 				3CE7424B2291579C000F81A9 /* Main.storyboard */,
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF821592294276C0097B4EE /* FavViewController.swift in Sources */,
+				3C94C80A2295313B00C2BB28 /* WeatherParser.swift in Sources */,
 				3CE7424A2291579C000F81A9 /* ViewController.swift in Sources */,
 				3CE742502291579C000F81A9 /* yrWeather.xcdatamodeld in Sources */,
 				3CE7427F2292C4AC000F81A9 /* SettingsViewController.swift in Sources */,

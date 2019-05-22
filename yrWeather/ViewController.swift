@@ -11,10 +11,9 @@ import UIKit
 class ViewController: UIViewController {
 
     //example url call to fetch weather forcast for Munich /Germany
-    let urlWeatherLocationCountry = "Germany"
-    let urlWeatherLocationRegion = "Bavaria"
-    let urlWeatherLocationCity = "Munich"
-    let urlCall = "https://www.yr.no/place/\(urlWeatherLocationCountry)/\(urlWeatherLocationRegion)/\(urlWeatherLocationCity)/forecast_hour_by_hour.xml"
+    let urlWeatherLocationCountry:String = "Germany"
+    let urlWeatherLocationRegion:String = "Bavaria"
+    let urlWeatherLocationCity:String = "Munich"
 
     @IBOutlet weak var lblCity: UILabel!
     @IBOutlet weak var lblTemperature: UILabel!
@@ -44,6 +43,15 @@ class ViewController: UIViewController {
     let clBlue:CGColor = UIColor(red: 0/255.0, green: 153.0/255.0, blue: 255.0/255.0, alpha: 1.0).cgColor
     let clOrange:CGColor = UIColor(red: 255.0/255.0, green: 204.0/255.0, blue: 102.0/255.0, alpha: 1.0).cgColor
     
+    
+    /**
+     *
+     */
+    func loadWeatherData(){
+        let urlCall = "https://www.yr.no/place/\(urlWeatherLocationCountry)/\(urlWeatherLocationRegion)/\(urlWeatherLocationCity)/forecast_hour_by_hour.xml"
+        
+        print(urlCall)
+    }
     
     /**
      * 

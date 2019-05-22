@@ -319,15 +319,35 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright 2019 by JN18DEV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xID-2S-u8R">
-                                <rect key="frame" x="20" y="307" width="374" height="14.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright 2019 by jn18dev" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xID-2S-u8R">
+                                <rect key="frame" x="20" y="307" width="374" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="09w-26-0jp">
+                                <rect key="frame" x="20" y="372" width="374" height="70"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather forecast from Yr, delivered by the Norwegian Meteorological Institute and the NRK" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NnK-pd-1Ky">
+                                        <rect key="frame" x="8" y="8" width="358" height="54"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.98405461549999995" green="1" blue="0.98907678580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="e9r-C6-K8G"/>
+                                    <constraint firstItem="NnK-pd-1Ky" firstAttribute="leading" secondItem="09w-26-0jp" secondAttribute="leading" constant="8" id="iad-TF-y5M"/>
+                                    <constraint firstAttribute="bottom" secondItem="NnK-pd-1Ky" secondAttribute="bottom" constant="8" id="p1H-9D-ZkB"/>
+                                    <constraint firstItem="NnK-pd-1Ky" firstAttribute="top" secondItem="09w-26-0jp" secondAttribute="top" constant="8" id="sXq-f0-b5n"/>
+                                    <constraint firstAttribute="trailing" secondItem="NnK-pd-1Ky" secondAttribute="trailing" constant="8" id="vbv-3a-WHi"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="lAd-cV-PHP" firstAttribute="trailing" secondItem="09w-26-0jp" secondAttribute="trailing" constant="20" id="71V-FW-e0G"/>
                             <constraint firstAttribute="bottom" secondItem="133-Qd-vKl" secondAttribute="bottom" id="DE7-dd-SKm"/>
                             <constraint firstItem="kte-3I-ydv" firstAttribute="leading" secondItem="lAd-cV-PHP" secondAttribute="leading" constant="20" id="H9b-KT-PJy"/>
                             <constraint firstItem="k0y-2K-dm4" firstAttribute="centerX" secondItem="wse-ZF-1ia" secondAttribute="centerX" id="Jsq-zN-Dag"/>
@@ -335,6 +355,8 @@
                             <constraint firstItem="zzg-6d-Ejp" firstAttribute="top" secondItem="k0y-2K-dm4" secondAttribute="bottom" constant="5" id="NE7-Np-sdJ"/>
                             <constraint firstItem="133-Qd-vKl" firstAttribute="leading" secondItem="lAd-cV-PHP" secondAttribute="leading" id="Oeb-ub-dSn"/>
                             <constraint firstItem="zzg-6d-Ejp" firstAttribute="leading" secondItem="lAd-cV-PHP" secondAttribute="leading" constant="20" id="Q7w-U1-hQG"/>
+                            <constraint firstItem="09w-26-0jp" firstAttribute="leading" secondItem="lAd-cV-PHP" secondAttribute="leading" constant="20" id="S9y-UZ-sFm"/>
+                            <constraint firstItem="09w-26-0jp" firstAttribute="top" secondItem="xID-2S-u8R" secondAttribute="bottom" constant="50" id="UBe-0r-0dy"/>
                             <constraint firstItem="xID-2S-u8R" firstAttribute="top" secondItem="zzg-6d-Ejp" secondAttribute="bottom" constant="5" id="bX9-RZ-P9y"/>
                             <constraint firstItem="133-Qd-vKl" firstAttribute="top" secondItem="k0y-2K-dm4" secondAttribute="bottom" constant="-278" id="bvT-vF-65a"/>
                             <constraint firstItem="kte-3I-ydv" firstAttribute="bottom" secondItem="lAd-cV-PHP" secondAttribute="bottom" id="ddc-aY-gme"/>
@@ -349,6 +371,9 @@
                     </view>
                     <connections>
                         <outlet property="buttonClose" destination="kte-3I-ydv" id="92x-Ic-vYJ"/>
+                        <outlet property="lblApplicationInfo" destination="zzg-6d-Ejp" id="ZPx-DQ-PyO"/>
+                        <outlet property="lblCopyrightInfo" destination="xID-2S-u8R" id="eDe-aD-gEK"/>
+                        <outlet property="lblCredits" destination="09w-26-0jp" id="hHl-zJ-NH9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SNc-3v-yPu" userLabel="First Responder" sceneMemberID="firstResponder"/>
